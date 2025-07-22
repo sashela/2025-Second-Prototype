@@ -170,3 +170,12 @@ body {
   font-size: 5rem;
   text-align: center;
 }
+
+
+.active{
+    padding: 5px 5px;
+  border-radius: 5px;
+  background: #121212;
+  text-decoration: none;
+  color: #E26a42;
+}
