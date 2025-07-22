@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: black;
+}
+
+.logo {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-item {
+  padding: 5px 5px;
+  border-radius: 5px;
+  background: #121212;
+  text-decoration: none;
+  color: white;
+  
+  
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  background: #121212;
+  height: 100vh;
+  
+}
+
+.intro-text {
+  
+  font-size: 2rem;  
+  color: white;
+  width: 50%;
+
+
+}
+
+.intro-image {
+ 
+ 
+  background: #292828;
+  border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+
+}
+.intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 60%;
+}
+
+.intro-image img{
+  width: 100%;
+  height: 100%;
+}
+/* Main Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 20px;
+  background-color: #1b1b1b;
+ 
+}
+
+.content-block {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+   width: 80%;
+   
+}
+
+
+.side-image {
+  flex: 1;
+  height: 30rem;
+  border-radius: 20px;
+  
+  border: 3px solid white;
+  background: #171717;
+}
+
+.content-heading{
+  color: white;
+}
+.text {
+  flex: 2;
+  padding: 20px;
+  background: #2a2929;
+  border-radius: 10px;
+  color: white;
+  border: 3px solid white;
+  text-align: center;
+  justify-content: center;
+  
+}
+.text h2 {
+  margin-bottom: 20px;
+  text-align: center  ;
+  font-size:4rem;
+  font-weight: 500;
+}
+
+.text p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background: #ddd;
+  text-align: center;
+}
+
+
+
+.content-reverse {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  width: 80%;
+  margin-left: auto;
+  
+}
+
+.content h1{
+  font-size: 5rem;
+  text-align: center;
+}
