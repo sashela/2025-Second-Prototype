@@ -119,7 +119,7 @@ body{
 }
 
 .dropdown_menu-1 {
-  translate: -30% 5%;
+  translate: -20% -5%;
   display: none;
   position: absolute;
   top: 100%;      /* appear below the parent */
